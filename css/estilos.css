@@ -1,0 +1,83 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  body {
+    margin: 0;
+    margin-bottom: 70px;
+  }
+
+header{
+    height: 70px;
+    background-color:aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:static;
+}
+
+main{
+    width: 100%;
+    /* height: 100%; */
+    border: 1px solid red;
+}
+
+aside{
+    width: 40%;
+    background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+img{
+    width: 80%;
+    height: 80%;;
+    display: flex;
+}
+
+
+#content{
+    width: 80%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    margin:auto
+}
+
+#about{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    width: 100%;
+    justify-content:space-around;
+    align-items: center;
+}
+
+#personaldata, #experiencia{
+    width: 80%;
+    height: 70px;
+    border: 1px solid blue;
+    display: flex;
+    background-color: antiquewhite;
+    padding: 20px;
+    
+}
+
+footer{
+    height: 70px;
+    width: 100%;
+    background-color:aquamarine;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom:0;   
+}
